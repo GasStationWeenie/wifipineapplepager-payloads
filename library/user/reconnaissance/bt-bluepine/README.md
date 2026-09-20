@@ -43,3 +43,9 @@ BluePines menus look best if the list picker font size is small.  [Please use th
 AArch64/ARM64/Debian Support files are not included with the pager payload from the Hak5 repo.  BluePine is tested on ClockworkPi (Trixie) & Hackberry (Kali) and should work on other Raspberry Pi based systems.  The files can be found [here along with the latest version of BluePine](https://github.com/cncartistsec/BluePine-WiFi-Pineapple-Pager/).
 
 Required files for AArch64/ARM64/Debian Support are in the "include/aarch64" folder, desktop shortcut/icon included.  There are different dependencies for AArch64/ARM64/Debian which are built into the scripts dependency check: "jq" & "ieee-data" (oui info) are required, while "evtest" is not.
+
+
+# Node Support / Pine Needles
+![BluePine Node Support](BT-bluepine-nodes.jpg)
+
+Nodes provide extra support data for Bluetooth scans, widen Bluetooth coverage, reveal more devices per scan, and accurately detect AirTags and Meshtastic/MeshCore.  Nodes can be used with the pager or AArch64/ARM64/Debian and are currently tested running on XIAO_ESP32-C5's.  The latest Node Firmware can be found [here](https://github.com/cncartistsec/BluePine-WiFi-Pineapple-Pager/tree/main/node-firmware/).
