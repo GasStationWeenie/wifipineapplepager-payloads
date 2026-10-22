@@ -20,7 +20,7 @@ The payload reads individual button press/release events at a 10 ms interval ind
 
 1. Copy the **entire adsbee folder** to `/root/payloads/user/general/` on your Pager
 2. Connect the Pager in **client Wi-Fi mode** to the same network as your ADSBee, or to the ADSBee's own access point. Use Pager's normal Wi-Fi settings. Both devices must be reachable across the network; client isolation can prevent this. Enter the ADSBee's IP on that network, not the Pager's IP.
-3. Open **Payloads → Aviation → ADSBee Airspace**. Pager firmware **1.0.8 or newer** is required for `LIST_PICKER`.
+3. Open **Payloads → General → ADSBee Airspace**. Pager firmware **1.0.8 or newer** is required for `LIST_PICKER`.
 4. Enter the receiver's IPv4 address. If Python is unavailable, choose **Install runtime**. This explicitly installs `python3` and `python3-ctypes` to MMC using `opkg`; this step needs internet access and free space. It shows three stages (package-list update, package install, runtime check), streams package-manager output to the screen, and waits for acknowledgement on success or failure. An isolated ADSBee access point might not provide internet, so install before joining it. The payload does not replace existing system packages.
 5. Select **Aircraft list**, **Radar map**, **Console**, or **Live metrics**.
 
