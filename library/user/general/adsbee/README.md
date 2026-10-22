@@ -71,6 +71,10 @@ The native viewer temporarily stops the Pager UI service, following pagerctl's i
 
 This display is for hobby observation. Reception and position data can be incomplete or stale; do not use it for navigation or collision avoidance.
 
+## Preview Images
+<img width="1000" height="790" alt="preview" src="https://github.com/user-attachments/assets/2d385850-e94b-4b75-bf30-2f7f6b555179" />
+
+
 ## Development and validation
 
 ```sh
